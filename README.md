@@ -37,8 +37,5 @@ If you find my work helpful, consider supporting me:
 
 [![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=TEY7YEJC8X5HW)
 
-## 🔢 Contributions
-- Total Commits: 775 (in [app](https://github.com/skyvps360/app))
-
 ---
 ⭐️ From [skyvps360](https://github.com/skyvps360)
