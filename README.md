@@ -27,8 +27,7 @@ I'm a tech enthusiast and developer who is always learning and growing. Currentl
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=skyvps360&show_icons=true&theme=dark)
 
 ## 🤝 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YourUsername)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YourUsername)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://skyvps360.com/discord)
 
 ## 🚀 Latest Project
 - [app](https://github.com/skyvps360/app): A brief description of your app project
@@ -43,5 +42,3 @@ If you find my work helpful, consider supporting me:
 
 ---
 ⭐️ From [skyvps360](https://github.com/skyvps360)
-
-*Last updated: 2025-03-05 01:11:40 UTC*
