@@ -33,7 +33,7 @@ SkyVPS360 is a comprehensive cloud VPS management platform that integrates with 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/skyvps360.git
+git clone https://github.com/skyvps360/skyvps360.git
 cd skyvps360
 ```
 
@@ -127,3 +127,13 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For support, email support@skyvps360.com or create a support ticket in the platform.
+
+
+Readme - changes - gitchanges - codebase - api_8.12.1
+```
+can you continue the develop as per the files above please this better explains the project.
+
+you were using the changes.md file as a todo list which you were re-writing when you were completed tasks please continue todo so.
+
+also ive now attached the OpenAPI for jelastic the api calls are in the attached files to look at id like you to better work on this application please
+```
