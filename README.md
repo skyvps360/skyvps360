@@ -1,41 +1,129 @@
-# 👋 Hi, I'm @skyvps360
+# SkyVPS360 - Cloud VPS Management Platform
 
-![Profile Views](https://komarev.com/ghpvc/?username=skyvps360&color=blue)
+SkyVPS360 is a comprehensive cloud VPS management platform that integrates with Jelastic PaaS to provide easy deployment, management, and monitoring of virtual private servers.
 
-## About Me
-I'm a tech enthusiast and developer who is always learning and growing. Currently, I am working on some exciting projects.
+## Features
 
-- 💻 **Tech enthusiast and developer**
-- 🌱 **Always learning and growing**
-- 🔭 **Working on exciting projects**
+- User Authentication & Authorization
+- VPS Deployment Management
+- Real-time Resource Usage Monitoring
+- Pay-as-you-go Billing System
+- PayPal Integration
+- Automatic Usage Tracking
+- Backup & Restore Functionality
+- Support Ticket System
+- Admin Dashboard
 
-## 🛠️ Tech Stack
-![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![HTML](https://img.shields.io/badge/-HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
-![AWS](https://img.shields.io/badge/-AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Digital Ocean](https://img.shields.io/badge/-Digital%20Ocean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
+## Tech Stack
 
-## 📊 GitHub Stats
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=skyvps360&show_icons=true&theme=dark)
+- **Backend**: Node.js, Express.js, MongoDB
+- **Frontend**: React.js (coming soon)
+- **Cloud Provider**: Jelastic PaaS
+- **Payment Processing**: PayPal
+- **Authentication**: JWT
 
-## 🤝 Connect With Me
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://skyvps360.com/discord)
+## Prerequisites
 
-## 🚀 Latest Project
-- [app](https://github.com/skyvps360/app): A brief description of your app project
+- Node.js (v14 or higher)
+- MongoDB
+- PayPal Business Account
+- Jelastic PaaS Account
 
-## 💝 Support My Work
-If you find my work helpful, consider supporting me:
+## Installation
 
-[![PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=TEY7YEJC8X5HW)
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/skyvps360.git
+cd skyvps360
+```
 
----
-⭐️ From [skyvps360](https://github.com/skyvps360)
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Create a .env file in the root directory and add your configuration:
+```env
+# Copy from .env.example and update with your values
+cp .env.example .env
+```
+
+4. Start the development server:
+```bash
+npm run dev
+```
+
+## API Documentation
+
+### Authentication Endpoints
+
+- `POST /api/v1/auth/register` - Register new user
+- `POST /api/v1/auth/login` - Login user
+- `GET /api/v1/auth/logout` - Logout user
+- `GET /api/v1/auth/me` - Get current user
+- `PUT /api/v1/auth/updatedetails` - Update user details
+- `PUT /api/v1/auth/updatepassword` - Update password
+- `POST /api/v1/auth/forgotpassword` - Request password reset
+- `PUT /api/v1/auth/resetpassword/:resettoken` - Reset password
+
+### Deployment Endpoints
+
+- `GET /api/v1/deployments` - Get all deployments
+- `POST /api/v1/deployments` - Create new deployment
+- `GET /api/v1/deployments/:id` - Get single deployment
+- `PUT /api/v1/deployments/:id` - Update deployment
+- `DELETE /api/v1/deployments/:id` - Delete deployment
+- `POST /api/v1/deployments/:id/start` - Start deployment
+- `POST /api/v1/deployments/:id/stop` - Stop deployment
+- `POST /api/v1/deployments/:id/backup` - Create backup
+- `POST /api/v1/deployments/:id/restore/:backupId` - Restore from backup
+- `GET /api/v1/deployments/:id/logs` - Get deployment logs
+
+### Billing Endpoints
+
+- `GET /api/v1/billing/current` - Get current billing status
+- `GET /api/v1/billing/history` - Get billing history
+- `POST /api/v1/billing/paypal/order` - Create PayPal order
+- `POST /api/v1/billing/paypal/capture/:orderId` - Capture PayPal payment
+- `POST /api/v1/billing/subscription` - Create subscription
+- `DELETE /api/v1/billing/subscription/:id` - Cancel subscription
+- `GET /api/v1/billing/invoice/:id` - Get invoice
+- `PUT /api/v1/billing/info` - Update billing info
+
+### Admin Endpoints
+
+- `GET /api/v1/billing/admin/report` - Get billing reports
+- More admin endpoints coming soon...
+
+## Configuration
+
+The application uses environment variables for configuration. See `.env.example` for all required variables.
+
+## Development
+
+```bash
+# Run in development mode
+npm run dev
+
+# Run tests
+npm test
+
+# Run in production
+npm start
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Support
+
+For support, email support@skyvps360.com or create a support ticket in the platform.

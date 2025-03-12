@@ -1,0 +1,38 @@
+# Environment variables
+.env
+
+# Node.js dependencies
+node_modules/
+
+# Build directories
+/client/build/
+/client/dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+/coverage/
+
+# Temp files
+.tmp/
+.temp/
