@@ -27,10 +27,12 @@ I'm a tech enthusiast and developer who is always learning and growing. Currentl
 ![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=skyvps360&show_icons=true&theme=dark)
 
 ## 🤝 Connect With Me
-[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://skyvps360.com/discord)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://skyvps360.xyz/discord)
 
 ## 🚀 Latest Project
-- [app](https://github.com/skyvps360/app): A brief description of your app project
+- [app](https://github.com/skyvps360/app): SkyVPS360 is a comprehensive cloud VPS hosting provider platform with advanced server management, SSH terminal access, and intelligent billing systems. This platform allows users to quickly deploy virtual servers across multiple global regions with various configurations to suit different workloads and budgets. this project used digitalocean as the api and paypal for payments
+
+- [home](https://github.com/skyvps360/home): As we moved away from Reselling we have made our own homepage which offers better explination to plans we now offer and more.
 
 ## 💝 Support My Work
 If you find my work helpful, consider supporting me:
